@@ -1,0 +1,3 @@
+"""
+Financial API module
+"""
