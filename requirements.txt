@@ -1,2 +1,39 @@
-streamlit
-openai
+# Core Framework
+streamlit>=1.31.0
+
+# PDF Processing & OCR
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10
+pdf2image>=1.16.3
+Pillow>=10.0.0
+
+# Web Scraping & Browser Automation
+browser-use>=0.1.0
+playwright>=1.40.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+
+# AI/LLM Integration
+anthropic>=0.18.0
+openai>=1.0.0
+crewai>=0.28.0
+langchain>=0.1.0
+langchain-anthropic>=0.1.0
+google-generativeai>=0.3.0
+httpx>=0.25.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+python-dateutil>=2.8.2
+
+# Document Generation
+python-docx>=1.1.0
+reportlab>=4.0.0
+jinja2>=3.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+tenacity>=8.2.0
+requests>=2.31.0
